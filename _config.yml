@@ -22,7 +22,7 @@ name                     : "erea"
 description              : ""
 url                      : "https://maieve.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : "maieve/maieve-github.io"
+repository               : "maieve/maieve.github.io"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
@@ -58,8 +58,8 @@ reCaptcha:
   secret                 :
 atom_feed:
   path                   : # blank (default) uses feed.xml
-search                   : # true, false (default)
-search_full_content      : # true, false (default)
+search                   : "true" 
+search_full_content      : "true"
 search_provider          : # lunr (default), algolia, google
 algolia:
   application_id         : # YOUR_APPLICATION_ID
@@ -282,6 +282,6 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: # true
+      comments: true
       share: true
       related: true
