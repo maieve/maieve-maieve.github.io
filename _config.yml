@@ -100,11 +100,11 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
+  name             : "erea"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an amazing person."
-  location         : "Somewhere"
-  email            :
+  bio              : "SRE Infra Developer"
+  location         : "Seoul - KO"
+  email            : hmj2088@gmail.com
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
